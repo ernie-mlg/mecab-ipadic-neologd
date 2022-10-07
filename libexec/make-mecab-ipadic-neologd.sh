@@ -512,6 +512,7 @@ if [ ${WANNA_CREATE_USER_DIC} = 1 ]; then
 fi
 
 cp ${BASEDIR}/../misc/dic/unk.def .
+cp ${BASEDIR}/../misc/dic/char.def .
 
 if [ ! "${COLUMN_EXTENSIONS_URLS}" = "" ]; then
     echo "${ECHO_PREFIX} Expand column of all seed data"
